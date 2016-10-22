@@ -14,6 +14,17 @@
 		5E37043F1DBBA364009BE80D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E37043D1DBBA364009BE80D /* LaunchScreen.storyboard */; };
 		5E37044A1DBBA364009BE80D /* MHGBaseProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3704491DBBA364009BE80D /* MHGBaseProjectTests.swift */; };
 		5E3704551DBBA364009BE80D /* MHGBaseProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3704541DBBA364009BE80D /* MHGBaseProjectUITests.swift */; };
+		5E3704681DBBA4C5009BE80D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3704671DBBA4C5009BE80D /* BaseViewController.swift */; };
+		5E37046B1DBBA53C009BE80D /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37046A1DBBA53C009BE80D /* BaseTableViewController.swift */; };
+		5E37046D1DBBA69D009BE80D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5E37046C1DBBA69D009BE80D /* Podfile */; };
+		5E37046F1DBBAC88009BE80D /* Dictionary+Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E37046E1DBBAC88009BE80D /* Dictionary+Update.swift */; };
+		5E3704711DBBACCD009BE80D /* ColorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3704701DBBACCD009BE80D /* ColorUtility.swift */; };
+		5E3704731DBBAD67009BE80D /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3704721DBBAD67009BE80D /* CommonFunctions.swift */; };
+		5E3704751DBBAF4D009BE80D /* CGPoint+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3704741DBBAF4D009BE80D /* CGPoint+Distance.swift */; };
+		5E3704771DBBB047009BE80D /* UIImage+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3704761DBBB047009BE80D /* UIImage+Rotation.swift */; };
+		5E3704791DBBB0B0009BE80D /* String+DrawingSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3704781DBBB0B0009BE80D /* String+DrawingSize.swift */; };
+		5E37047B1DBBB11F009BE80D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E37047A1DBBB11F009BE80D /* .gitignore */; };
+		83F23AE7B69FB45DB4C8856A /* Pods_MHGBaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D77420C17B8F8F6FB940E2 /* Pods_MHGBaseProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24B126F771B49E31304B03BD /* Pods-MHGBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHGBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHGBaseProject/Pods-MHGBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5E3704311DBBA364009BE80D /* MHGBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHGBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3704341DBBA364009BE80D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E3704361DBBA364009BE80D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,18 @@
 		5E3704501DBBA364009BE80D /* MHGBaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHGBaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E3704541DBBA364009BE80D /* MHGBaseProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHGBaseProjectUITests.swift; sourceTree = "<group>"; };
 		5E3704561DBBA364009BE80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3704671DBBA4C5009BE80D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5E37046A1DBBA53C009BE80D /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		5E37046C1DBBA69D009BE80D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E37046E1DBBAC88009BE80D /* Dictionary+Update.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Update.swift"; sourceTree = "<group>"; };
+		5E3704701DBBACCD009BE80D /* ColorUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUtility.swift; sourceTree = "<group>"; };
+		5E3704721DBBAD67009BE80D /* CommonFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		5E3704741DBBAF4D009BE80D /* CGPoint+Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Distance.swift"; sourceTree = "<group>"; };
+		5E3704761DBBB047009BE80D /* UIImage+Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Rotation.swift"; sourceTree = "<group>"; };
+		5E3704781DBBB0B0009BE80D /* String+DrawingSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DrawingSize.swift"; sourceTree = "<group>"; };
+		5E37047A1DBBB11F009BE80D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		77D77420C17B8F8F6FB940E2 /* Pods_MHGBaseProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHGBaseProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1BDDFCDD2E601BABAB31679 /* Pods-MHGBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHGBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHGBaseProject/Pods-MHGBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F23AE7B69FB45DB4C8856A /* Pods_MHGBaseProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +99,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FD0394D3E33B54675F30D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77D77420C17B8F8F6FB940E2 /* Pods_MHGBaseProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5E3704281DBBA363009BE80D = {
 			isa = PBXGroup;
 			children = (
+				5E37047A1DBBB11F009BE80D /* .gitignore */,
+				5E37046C1DBBA69D009BE80D /* Podfile */,
 				5E3704331DBBA364009BE80D /* MHGBaseProject */,
 				5E3704481DBBA364009BE80D /* MHGBaseProjectTests */,
 				5E3704531DBBA364009BE80D /* MHGBaseProjectUITests */,
 				5E3704321DBBA364009BE80D /* Products */,
+				A84ECB37FC76D98E8D3A3610 /* Pods */,
+				3FD0394D3E33B54675F30D57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +134,10 @@
 		5E3704331DBBA364009BE80D /* MHGBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				5E3704651DBBA3FE009BE80D /* Models */,
+				5E3704641DBBA3E3009BE80D /* Network */,
+				5E3704631DBBA3B9009BE80D /* ViewControllers */,
+				5E3704621DBBA3B2009BE80D /* Utilities */,
 				5E3704341DBBA364009BE80D /* AppDelegate.swift */,
 				5E3704361DBBA364009BE80D /* ViewController.swift */,
 				5E3704381DBBA364009BE80D /* Main.storyboard */,
@@ -125,6 +166,67 @@
 			path = MHGBaseProjectUITests;
 			sourceTree = "<group>";
 		};
+		5E3704621DBBA3B2009BE80D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5E3704661DBBA41B009BE80D /* Categories */,
+				5E3704721DBBAD67009BE80D /* CommonFunctions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5E3704631DBBA3B9009BE80D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E3704691DBBA4ED009BE80D /* Common */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5E3704641DBBA3E3009BE80D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5E3704651DBBA3FE009BE80D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5E3704661DBBA41B009BE80D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5E37046E1DBBAC88009BE80D /* Dictionary+Update.swift */,
+				5E3704701DBBACCD009BE80D /* ColorUtility.swift */,
+				5E3704741DBBAF4D009BE80D /* CGPoint+Distance.swift */,
+				5E3704761DBBB047009BE80D /* UIImage+Rotation.swift */,
+				5E3704781DBBB0B0009BE80D /* String+DrawingSize.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5E3704691DBBA4ED009BE80D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5E3704671DBBA4C5009BE80D /* BaseViewController.swift */,
+				5E37046A1DBBA53C009BE80D /* BaseTableViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A84ECB37FC76D98E8D3A3610 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24B126F771B49E31304B03BD /* Pods-MHGBaseProject.debug.xcconfig */,
+				D1BDDFCDD2E601BABAB31679 /* Pods-MHGBaseProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +234,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E3704591DBBA364009BE80D /* Build configuration list for PBXNativeTarget "MHGBaseProject" */;
 			buildPhases = (
+				AB53236A8B8A42D5CA51CC68 /* [CP] Check Pods Manifest.lock */,
+				5E37047C1DBBB3EF009BE80D /* Increase Build Version */,
 				5E37042D1DBBA363009BE80D /* Sources */,
 				5E37042E1DBBA363009BE80D /* Frameworks */,
 				5E37042F1DBBA363009BE80D /* Resources */,
+				BA2A3DD88358279DB1A14045 /* [CP] Embed Pods Frameworks */,
+				88DE856298CAEF3BF5631048 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +299,7 @@
 				TargetAttributes = {
 					5E3704301DBBA363009BE80D = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 33998V4ZF9;
 						ProvisioningStyle = Automatic;
 					};
 					5E3704441DBBA364009BE80D = {
@@ -232,8 +339,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E37047B1DBBB11F009BE80D /* .gitignore in Resources */,
 				5E37043F1DBBA364009BE80D /* LaunchScreen.storyboard in Resources */,
 				5E37043C1DBBA364009BE80D /* Assets.xcassets in Resources */,
+				5E37046D1DBBA69D009BE80D /* Podfile in Resources */,
 				5E37043A1DBBA364009BE80D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +363,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E37047C1DBBB3EF009BE80D /* Increase Build Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increase Build Version";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nif [ \"${CONFIGURATION}\" = \"Release\" ]; then\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\nfi\n";
+		};
+		88DE856298CAEF3BF5631048 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHGBaseProject/Pods-MHGBaseProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB53236A8B8A42D5CA51CC68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2A3DD88358279DB1A14045 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHGBaseProject/Pods-MHGBaseProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5E37042D1DBBA363009BE80D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +432,14 @@
 			files = (
 				5E3704371DBBA364009BE80D /* ViewController.swift in Sources */,
 				5E3704351DBBA364009BE80D /* AppDelegate.swift in Sources */,
+				5E3704731DBBAD67009BE80D /* CommonFunctions.swift in Sources */,
+				5E3704751DBBAF4D009BE80D /* CGPoint+Distance.swift in Sources */,
+				5E3704791DBBB0B0009BE80D /* String+DrawingSize.swift in Sources */,
+				5E3704711DBBACCD009BE80D /* ColorUtility.swift in Sources */,
+				5E3704771DBBB047009BE80D /* UIImage+Rotation.swift in Sources */,
+				5E37046B1DBBA53C009BE80D /* BaseTableViewController.swift in Sources */,
+				5E3704681DBBA4C5009BE80D /* BaseViewController.swift in Sources */,
+				5E37046F1DBBAC88009BE80D /* Dictionary+Update.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +587,10 @@
 		};
 		5E37045A1DBBA364009BE80D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B126F771B49E31304B03BD /* Pods-MHGBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33998V4ZF9;
 				INFOPLIST_FILE = MHGBaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.herkuang.MHGBaseProject;
@@ -420,8 +601,10 @@
 		};
 		5E37045B1DBBA364009BE80D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BDDFCDD2E601BABAB31679 /* Pods-MHGBaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33998V4ZF9;
 				INFOPLIST_FILE = MHGBaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.herkuang.MHGBaseProject;
@@ -503,6 +686,7 @@
 				5E37045B1DBBA364009BE80D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E37045C1DBBA364009BE80D /* Build configuration list for PBXNativeTarget "MHGBaseProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +695,7 @@
 				5E37045E1DBBA364009BE80D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E37045F1DBBA364009BE80D /* Build configuration list for PBXNativeTarget "MHGBaseProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +704,7 @@
 				5E3704611DBBA364009BE80D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

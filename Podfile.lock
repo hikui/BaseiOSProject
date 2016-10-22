@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (4.0.1)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - CocoaLumberjack/Swift (3.0.0):
+    - CocoaLumberjack/Extensions
+  - MBProgressHUD (1.0.0)
+  - PromiseKit (4.0.4):
+    - PromiseKit/Foundation (= 4.0.4)
+    - PromiseKit/QuartzCore (= 4.0.4)
+    - PromiseKit/UIKit (= 4.0.4)
+  - PromiseKit/CorePromise (4.0.4)
+  - PromiseKit/Foundation (4.0.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.0.4):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.0.4):
+    - PromiseKit/CorePromise
+  - Sugar (2.0.0)
+  - SwiftyJSON (3.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0.1)
+  - CocoaLumberjack/Swift (~> 3.0.0)
+  - MBProgressHUD (~> 1.0.0)
+  - PromiseKit (~> 4.0.4)
+  - Sugar (~> 2.0.0)
+  - SwiftyJSON (~> 3.1.1)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  PromiseKit: 8e8ee39d33ff199d92a1a883b5396f6285be6c91
+  Sugar: f45b46cae3d198222a042b9ecf1ce3d44ab8e764
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+
+PODFILE CHECKSUM: 9f10f6d039a54f59371fe3369d151337011ff48d
+
+COCOAPODS: 1.1.1
